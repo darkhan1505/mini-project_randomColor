@@ -1,0 +1,42 @@
+*,
+*:after,
+*:before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.color {
+    margin-bottom: 10px;
+}
+
+.block {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 10px;
+
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 10px;
+    transition: all .4s;
+}
+
+.block:hover {
+    box-shadow: rgba(0,0,0, 0.4) 14px 14px 14px;
+}
+
+.btn {
+    padding: 7px 15px;
+    border-radius: 10px;
+}
